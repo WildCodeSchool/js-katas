@@ -1,4 +1,4 @@
-# JS Training with TDD
+# JS Katas
 
 Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](https://github.com/nan-academy/js-training).
 
@@ -17,6 +17,7 @@ git clone https://github.com/GITHUB_LOGIN/js-training-tdd.git
 # change working directory to the newly cloned repository
 cd js-training-tdd
 ```
+
 **Prerequisites**: you must have installed Git!
 
 Node.js is a platform which makes it possible to run JavaScript code outside the web browser.
@@ -60,6 +61,7 @@ Running `node -v` should display: `v12.16.1`.
 Once you have coded your masterpiece, you can start testing your solutions.
 
 You can run tests for a single section:
+
 ```sh
 # run the test runner with args ( basics, advanced, math, get)
 ./tester basics
@@ -73,6 +75,7 @@ You can run tests for a single section:
 # run the test runner
 ./tester
 ```
+
 ![output-tester](img/output-tester.png)
 
 ## Solving
@@ -86,6 +89,7 @@ You can start editing the JavaScript files with your favorite text editor i.e. V
 We maintain an example-based code documentation
 
 All you need to know to solve those exercises is described in them.
+
 - [Primitive and Operators](examples/primitive-and-operators.js)
 - [Variables](examples/variables.js)
 - [Data-Structures](examples/data-structures.js)
@@ -104,7 +108,7 @@ And we also made you a curated list of all the most useful methods:
   [floor](https://devdocs.io/javascript/global_objects/math/floor),
   [ceil](https://devdocs.io/javascript/global_objects/math/ceil),
   [trunc](https://devdocs.io/javascript/global_objects/math/trunc),
-  _[random](https://devdocs.io/javascript/global_objects/math/random)*_
+  _[random](https://devdocs.io/javascript/global_objects/math/random)\*_
 - String
   - Transform
     [slice](https://devdocs.io/javascript/global_objects/string/slice),
@@ -125,9 +129,9 @@ And we also made you a curated list of all the most useful methods:
     [lastIndexOf](https://devdocs.io/javascript/global_objects/string/lastindexof),
     [charCodeAt](https://devdocs.io/javascript/global_objects/string/charcodeat)
 - Arrays
-[Array.from](https://devdocs.io/javascript/global_objects/array/from),
-[Array.isArray](https://devdocs.io/javascript/global_objects/array/isarray),
-_[fill](https://devdocs.io/javascript/global_objects/array/fill)*_
+  [Array.from](https://devdocs.io/javascript/global_objects/array/from),
+  [Array.isArray](https://devdocs.io/javascript/global_objects/array/isarray),
+  _[fill](https://devdocs.io/javascript/global_objects/array/fill)\*_
   - Search
     [find](https://devdocs.io/javascript/global_objects/array/find),
     [findIndex](https://devdocs.io/javascript/global_objects/array/findindex),
@@ -138,14 +142,14 @@ _[fill](https://devdocs.io/javascript/global_objects/array/fill)*_
     [concat](https://devdocs.io/javascript/global_objects/array/concat),
     [join](https://devdocs.io/javascript/global_objects/array/join),
     [slice](https://devdocs.io/javascript/global_objects/array/slice),
-    _[pop](https://devdocs.io/javascript/global_objects/array/pop)*_,
-    _[push](https://devdocs.io/javascript/global_objects/array/push)*_,
-    _[shift](https://devdocs.io/javascript/global_objects/array/shift)*_,
-    _[unshift](https://devdocs.io/javascript/global_objects/array/unshift)*_,
-    _[splice](https://devdocs.io/javascript/global_objects/array/splice)*_
+    _[pop](https://devdocs.io/javascript/global_objects/array/pop)\*_,
+    _[push](https://devdocs.io/javascript/global_objects/array/push)\*_,
+    _[shift](https://devdocs.io/javascript/global_objects/array/shift)\*_,
+    _[unshift](https://devdocs.io/javascript/global_objects/array/unshift)\*_,
+    _[splice](https://devdocs.io/javascript/global_objects/array/splice)\*_
   - Re-order
-    _[reverse](https://devdocs.io/javascript/global_objects/array/reverse)*_,
-    _[sort](https://devdocs.io/javascript/global_objects/array/sort)*_
+    _[reverse](https://devdocs.io/javascript/global_objects/array/reverse)\*_,
+    _[sort](https://devdocs.io/javascript/global_objects/array/sort)\*_
   - Functionnal Iteration
     [forEach](https://devdocs.io/javascript/global_objects/array/foreach),
     [filter](https://devdocs.io/javascript/global_objects/array/filter),
@@ -161,5 +165,5 @@ _[fill](https://devdocs.io/javascript/global_objects/array/fill)*_
   [assign](https://devdocs.io/javascript/global_objects/object/assign),
   [fromEntries](https://devdocs.io/javascript/global_objects/object/fromEntries)
 
-_(*) methods in italics are **NOT** pure (using them with the same arguments won't return the same result).
+_(\*) methods in italics are **NOT** pure (using them with the same arguments won't return the same result).
 They must be used with caution as it is harder to predict their results_
