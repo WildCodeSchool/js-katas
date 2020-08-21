@@ -9,7 +9,7 @@ Create a function `getLikes` which receives an array of names, and returns:
 
 */
 
-// Your code:
+// TODO your code:
 
 // Begin of tests
 const assert = require("assert");

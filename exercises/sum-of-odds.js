@@ -6,7 +6,7 @@ If the array is empty or null, return zero.
 
 */
 
-// Your code:
+// TODO your code:
 
 // Begin of tests
 const assert = require("assert");
