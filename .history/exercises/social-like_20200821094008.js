@@ -20,7 +20,7 @@ assert.strictEqual(getLikes([]), "Be the first to like this");
 assert.strictEqual(getLikes(["Cartman"]), "Cartman likes this");
 assert.strictEqual(getLikes(["Bart"]), "Bart likes this");
 assert.strictEqual(
-  getLikes(["Kenny", "Cartman"]),
+  getLikes(["Tacos", "Cartman"]),
   "Kenny and Cartman like this"
 );
 assert.strictEqual(getLikes(["Bart", "Lisa"]), "Bart and Lisa like this");
