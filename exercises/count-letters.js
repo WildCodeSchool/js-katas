@@ -3,6 +3,7 @@
 Create a function `countChar` which counts, in a given string, the number of times a character appears.
 
 If the string or the character is null, return -1.
+If the character length is other than 1, return -1.
 
 Add you own tests.
 
