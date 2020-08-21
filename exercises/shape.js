@@ -21,7 +21,7 @@ class Shape {
   constructor() {}
 
   area() {
-    throw new Error("You have to implement the method area!");
+    throw new Error("You have to implement the area method!");
   }
 }
 
@@ -38,7 +38,7 @@ assert.strictEqual(
 );
 assert.throws(() => {
   new Shape().area();
-}, /^Error: You have to implement the method area!$/);
+}, /^Error: You have to implement the area method!$/);
 assert.strictEqual(typeof Rectangle, "function", "Rectangle class is defined");
 if (typeof Rectangle === "function") {
   assert.strictEqual(
