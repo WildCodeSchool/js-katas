@@ -1,16 +1,16 @@
 "use strict";
 /*
 Given an array of numbers, return the additive inverse of each. Each positive becomes negatives, and the negatives become positives.
+You can assume that all values are numbers.
 
+If the argument is an empty array or null, return an empty array.
+
+E.g:
 * [1, 2, 3, 4, 5] -> [-1, -2, -3, -4, -5]
 * [1, -2, 3, -4, 5] -> [-1, 2, -3, 4, -5]
 * [] -> []
 
-If the argument is an empty array or null, return an empty array.
-
 Do not mutate the parameter.
-
-You can assume that all values are numbers.
 
 */
 

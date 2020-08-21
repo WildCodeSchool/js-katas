@@ -1,12 +1,10 @@
 "use strict";
 /*
-Create a function `sayHello` which takes a string as parameter and returns : Hello first name, where "first name" is replaced with the argument value, e.g :
+Create a function `sayHello` which takes a string as parameter and returns: "Hello {first name}", where {first name} is replaced with the argument value, e.g:
+* sayHello("Barbara") -> "Hello Barbara"
 
-> Hello Barbara
-
-If the argument is empty or null, return :
-
-> Hello World
+If the argument is empty or null, return "Hello World":
+* sayHello(null) -> "Hello World"
 
 */
 

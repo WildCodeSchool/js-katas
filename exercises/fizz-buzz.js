@@ -1,7 +1,6 @@
 "use strict";
 /*
-Create a function `fizzBuzz` which takes a number as parameter, and returns :
-
+Create a function `fizzBuzz` which takes a number as parameter, and returns:
 * "Fizz", if the argument is a multiple of 3
 * "Buzz" if the argument is a multiple of 5
 * "FizzBuzz", if the argument is a multiple of 3 and 5
