@@ -29,6 +29,11 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - person
 - shape
 
+### Database
+
+- database-modeling
+- sql-queries
+
 ## Setup
 
 ### 1. Get this repo
