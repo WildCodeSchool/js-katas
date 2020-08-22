@@ -2,6 +2,33 @@
 
 Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](https://github.com/nan-academy/js-training).
 
+## Katas
+
+### Fundamentals
+
+- hello-you
+- fizz-buzz
+- social-like
+
+### Array
+
+- found-min
+- sum-of-odds
+- inverse-values
+
+### String
+
+- count-letters
+- palindrome
+- duration
+- abbreviate-names
+- string-compare
+
+### Object
+
+- person
+- shape
+
 ## Setup
 
 ### 1. Get this repo
