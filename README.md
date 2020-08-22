@@ -46,6 +46,7 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 
 ### Matrix
 
+- tictactoe
 - minesweeper
 
 ## Setup
