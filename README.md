@@ -37,6 +37,7 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 ### Array Advanced
 
 - tennis-score
+- pyramid-builder
 
 ## Setup
 
