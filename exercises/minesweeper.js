@@ -21,13 +21,13 @@ E.g :
 grid :
 [
   [0, 0, 0, 1],
-  [0, 1, 0, 1],
+  [0, 1, 0, 0],
   [1, 0, 0, 0]
 ]
 row : 1
 column : 2
 
-result : 3
+result : 2
 
 */
 
@@ -38,6 +38,17 @@ const assert = require("assert");
 
 assert.strictEqual(typeof sweep, "function");
 assert.strictEqual(sweep.length, 3);
+const grid = [
+  [0, 0, 0, 1],
+  [0, 1, 0, 0],
+  [1, 0, 0, 0],
+];
+assert.strictEqual(sweep(grid, 1, 1), "kaboom");
+assert.strictEqual(sweep(grid, 0, 3), "kaboom");
+assert.strictEqual(sweep(grid, 2, 0), "kaboom");
+assert.strictEqual(sweep(grid, 0, 0), 1);
+assert.strictEqual(sweep(grid, 1, 2), 2);
+assert.strictEqual(sweep(grid, 2, 3), 0);
 assert.throws(() => {
   sweep(null, 1, 1);
 }, TypeError);
@@ -55,7 +66,6 @@ assert.throws(() => {
     1
   );
 }, TypeError);
-
 assert.throws(() => {
   sweep(
     [
@@ -74,25 +84,15 @@ assert.throws(() => {
       [0, 1, null, 1],
       [1, 0, 0, 0],
     ],
-    1,
+    0,
     1
   );
 }, TypeError);
-const grid = [
-  [0, 0, 0, 1],
-  [0, 1, 0, 1],
-  [1, 0, 0, 0],
-];
 assert.throws(() => {
   sweep(grid, -1, 1);
 }, RangeError);
 assert.throws(() => {
   sweep(grid, 1, 5);
 }, RangeError);
-assert.strictEqual(sweep(grid, 1, 1), "kaboom");
-assert.strictEqual(sweep(grid, 0, 3), "kaboom");
-assert.strictEqual(sweep(grid, 2, 0), "kaboom");
-assert.strictEqual(sweep(grid, 0, 0), 1);
-assert.strictEqual(sweep(grid, 1, 2), 3);
-assert.strictEqual(sweep(grid, 2, 3), 0);
+
 // End of tests
