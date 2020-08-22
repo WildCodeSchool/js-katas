@@ -34,6 +34,10 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - database-modeling
 - sql-queries
 
+### Array Advanced
+
+- tennis-score
+
 ## Setup
 
 ### 1. Get this repo
