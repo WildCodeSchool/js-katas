@@ -49,6 +49,10 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - tictactoe
 - minesweeper
 
+### Collections
+
+- morse-code
+
 ## Setup
 
 ### 1. Get this repo
