@@ -27,7 +27,7 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 
 ### Functional programming
 
-- filter-odds
+- only-odds
 
 ### Object
 
