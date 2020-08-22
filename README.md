@@ -4,14 +4,14 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 
 ## Katas
 
-### Fundamentals
+### Fundamental
 
 - hello-you
 - fizz-buzz
-- social-like
 
 ### Array
 
+- social-like
 - found-min
 - sum-of-odds
 - inverse-values
