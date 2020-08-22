@@ -25,6 +25,10 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - abbreviate-names
 - string-compare
 
+### Functional programming
+
+- filter-odds
+
 ### Object
 
 - person
