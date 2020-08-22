@@ -13,7 +13,8 @@ n = 5 :
     "*********"
 ]
 
-If `n` is zero, negative, null or not a number, return an empty array.
+If `n` is zero or negative, throw a RangeError.
+If `n` is null or not a number, throw a TypeError.
 
 */
 
@@ -24,10 +25,6 @@ const assert = require("assert");
 
 assert.strictEqual(typeof build, "function");
 assert.strictEqual(build.length, 1);
-assert.deepStrictEqual(build(0), []);
-assert.deepStrictEqual(build(-1), []);
-assert.deepStrictEqual(build(null), []);
-assert.deepStrictEqual(build("a"), []);
 assert.deepStrictEqual(build(1), ["*"]);
 assert.deepStrictEqual(build(2), [" * ", "***"]);
 assert.deepStrictEqual(build(5), [
@@ -37,4 +34,16 @@ assert.deepStrictEqual(build(5), [
   " ******* ",
   "*********",
 ]);
+assert.throws(() => {
+  build(0);
+}, RangeError);
+assert.throws(() => {
+  build(-1);
+}, RangeError);
+assert.throws(() => {
+  build(null);
+}, TypeError);
+assert.throws(() => {
+  build("a");
+}, TypeError);
 // End of tests

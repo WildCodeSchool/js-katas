@@ -21,6 +21,10 @@ E.g:
 * points : [1, 2, 1, 2, 1, 2], result : "deuce"
 * points : [1, 1, 1, 2, 2, 2, 1], result : "ad in"
 
+If the argument is null or not an array, throw a TypeError.
+If a value of the argument is null or not a number, throw a TypeError.
+If a value of the argument is not 1 or 2, throw a RangeError.
+
 Add you own tests.
 
 */

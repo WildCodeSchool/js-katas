@@ -39,6 +39,11 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - tennis-score
 - pyramid-builder
 
+### String Advanced
+
+- runlength-encoding
+- caesar-cipher
+
 ## Setup
 
 ### 1. Get this repo
