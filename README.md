@@ -64,6 +64,17 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 
 ### Binary
 
+if (node === null) {
+return null;
+}
+if (node.value === value) {
+return node;
+}
+if (node.value < value) {
+return search(node.right, value);
+}
+return search(node.left, value);
+
 - binary-to-decimal
 - decimal-to-binary
 - chmod
@@ -79,6 +90,10 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - recursive-fibonacci
 - recursive-exponentiation
 - recursive-multiply
+
+### Binary Tree
+
+- binarytree-search
 
 ## Setup
 
