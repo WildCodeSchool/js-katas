@@ -95,6 +95,7 @@ return search(node.left, value);
 
 - binarytree-max
 - binarytree-search
+- binarytree-sum
 
 ## Setup
 

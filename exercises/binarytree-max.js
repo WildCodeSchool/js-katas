@@ -6,11 +6,11 @@ You are given a binary tree. Implement the function `max` which returns the maxi
 
 Example:
 
-      7
-    /   \ 
+    7
+  /   \ 
   5     2
   \      \
-    6     11          
+   6      11          
   / \    /
   1   9  4
 
