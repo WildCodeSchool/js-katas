@@ -2,7 +2,7 @@
 
 ![Database diagram](../img/restaurant-uml.png)
 
-Import the [../database/restaurant.sql](../database/restaurant.sql) file into MySQL.
+Import the [../databases/restaurant.sql](../databases/restaurant.sql) file into MySQL.
 
 Create the following queries :
 
