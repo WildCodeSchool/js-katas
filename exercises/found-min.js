@@ -9,6 +9,8 @@ E.g:
 * [3, -2, 1] -> -2
 * [] -> null
 
+You can't use the function Math.min()
+
 */
 
 // TODO your code:

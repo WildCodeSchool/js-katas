@@ -62,6 +62,10 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - morse-code
 - roman-numerals
 
+### Binary
+
+- binary-to-decimal
+
 ## Setup
 
 ### 1. Get this repo
