@@ -138,6 +138,12 @@ nvm use v12.16.1
 
 Running `node -v` should display: `v12.16.1`.
 
+## Solving
+
+You can start editing the JavaScript files with your favorite text editor i.e. VSCode, Atom, Sublime Text, etc.
+
+![where-to-code](img/where-to-code.png)
+
 ## Testing
 
 Once you have coded your masterpiece, you can start testing your solutions.
@@ -150,11 +156,5 @@ You can run tests for a single kata:
 ```
 
 ![output-tester-basics](img/output-tester-basics.png)
-
-## Solving
-
-You can start editing the JavaScript files with your favorite text editor i.e. VSCode, Atom, Sublime Text, etc.
-
-![where-to-code](img/where-to-code.png)
 
 Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](https://github.com/nan-academy/js-training).
