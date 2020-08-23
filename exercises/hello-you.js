@@ -14,6 +14,7 @@ If the argument is empty or null, return "Hello World":
 const assert = require("assert");
 
 assert.strictEqual(typeof sayHello, "function");
+assert.strictEqual(sayHello.length, 1);
 assert.strictEqual(sayHello("Barbara"), "Hello Barbara");
 assert.strictEqual(sayHello("Jean-Michel"), "Hello Jean-Michel");
 assert.strictEqual(sayHello(""), "Hello World");

@@ -14,6 +14,7 @@ Create a function `fizzBuzz` which takes a number as parameter, and returns:
 const assert = require("assert");
 
 assert.strictEqual(typeof fizzBuzz, "function");
+assert.strictEqual(fizzBuzz.length, 1);
 assert.strictEqual(fizzBuzz(3), "Fizz");
 assert.strictEqual(fizzBuzz(9), "Fizz");
 assert.strictEqual(fizzBuzz(5), "Buzz");

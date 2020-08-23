@@ -96,6 +96,11 @@ if (typeof Square === "function") {
     true,
     "Square has a constructor"
   );
+  assert.strictEqual(
+    Square.toString().includes("area("),
+    false,
+    "Square does not overrides area()"
+  );
   assert.strictEqual(new Square(3).area(), 9);
 }
 
