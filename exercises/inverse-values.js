@@ -11,7 +11,7 @@ Example:
 * [1, -2, 3, -4, 5] -> [-1, 2, -3, 4, -5]
 * [] -> []
 
-don't mutate the parameter.
+Don't mutate the parameter.
 
 */
 

@@ -23,7 +23,7 @@ result: [
 
 You can't use a loop!
 
-don't mutate the parameter.
+Don't mutate the parameter.
 
 */
 

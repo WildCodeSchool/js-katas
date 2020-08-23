@@ -4,7 +4,7 @@ Create a function `odd` which only keep odd values from an array passed as an ar
 
 You can't use a loop!
 
-don't mutate the parameter.
+Don't mutate the parameter.
 
 */
 
