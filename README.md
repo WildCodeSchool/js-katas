@@ -65,6 +65,7 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 ### Binary
 
 - binary-to-decimal
+- decimal-to-binary
 
 ## Setup
 
