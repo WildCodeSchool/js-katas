@@ -2,7 +2,7 @@
 /*
 Create a function `censor` which takes an array of sentences and a forbidden word as argument, then returns the array with the word censored.
 
-A censored word is replaced with asterisks, e.g: "tacos" -> "*****".
+A censored word is replaced with asterisks, example: "tacos" -> "*****".
 
 Only a full word should be censored.
 

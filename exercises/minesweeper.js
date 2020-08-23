@@ -16,7 +16,7 @@ The function will throw :
 * RangeError if grid has a width or height inferior to one
 * RangeError if row or column are out of bounds
 
-E.g :
+Example :
 
 grid :
 [

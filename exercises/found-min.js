@@ -4,7 +4,7 @@ Create a function `min` which founds the minimum value of a number array.
 
 If the array is empty or null, return null.
 
-E.g:
+Example:
 * [1, 2, 3] -> 1
 * [3, -2, 1] -> -2
 * [] -> null

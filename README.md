@@ -66,6 +66,7 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 
 - binary-to-decimal
 - decimal-to-binary
+- chmod
 
 ## Setup
 
@@ -93,7 +94,7 @@ You have to install Node.js, preferably **not** with the packages on Node's down
 
 #### On Linux/MacOS
 
-**Note for Linux users**: before going further, run `which curl` in the terminal. If it shows something (e.g. `/usr/bin/curl`), you're good! Otherwise, run `sudo apt install -y curl` (Ubuntu/Debian) to install cURL.
+**Note for Linux users**: before going further, run `which curl` in the terminal. If it shows something (example. `/usr/bin/curl`), you're good! Otherwise, run `sudo apt install -y curl` (Ubuntu/Debian) to install cURL.
 
 You are going to use NVM (Node Version Manager). Here's a summary of what you have to do (see [installation instructions](https://github.com/nvm-sh/nvm#installation-and-update) on the NVM repo for more details). Run these commands in your terminal:
 

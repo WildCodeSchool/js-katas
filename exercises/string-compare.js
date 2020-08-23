@@ -4,7 +4,7 @@ Create a function `compare` which returns the number of identical characters at 
 
 If the two arguments doesn't have the same length or at least one is null, return -1 instead.
 
-E.g:
+Example:
   string1  string2     result
 * "a"      "a"         1
 * "a"      "b"         0

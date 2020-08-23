@@ -4,7 +4,7 @@ Create a function `sum` which returns the sum of all odd values contained in a n
 
 If the array is empty or null, return zero.
 
-E.g:
+Example:
 * [] -> 0
 * [1, 2, 3] -> 4
 

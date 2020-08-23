@@ -15,7 +15,7 @@ If at least three points have been scored by each player, the score is not calle
 
 If at least three points have been scored by each side and a player has one more point than his opponent, the score of the game can be called "ad in" when the serving player (1) is ahead, and "ad out" when the receiving player (2) is ahead.
 
-E.g:
+Example:
 * points : [1, 1, 1], result : "40-love"
 * points : [2, 1, 2, 2], result : "15-40"
 * points : [1, 2, 1, 2, 1, 2], result : "deuce"

@@ -5,7 +5,7 @@ Create a function `countChar` which counts, in a given string, the number of tim
 If the string or the character is null, return -1.
 If the character length is other than 1, return -1.
 
-E.g:
+Example:
 * "" and "a" -> 0
 * "a" and "a" -> 1
 * "aaaaabbbaa" and "a" -> 7

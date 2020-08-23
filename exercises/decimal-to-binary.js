@@ -2,7 +2,7 @@
 /*
 Create a function `convert` which converts a positive integer to a binary string.
 
-E.g:
+Example:
 * integer: 164, binary: "10100100"
 
 Hint (only if you're stuck) : https://gist.github.com/bastienwcs/bebab3c43e7390b29159aaa936c35883

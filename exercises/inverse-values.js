@@ -6,7 +6,7 @@ You can assume that all values are numbers.
 
 If the argument is an empty array or null, return an empty array.
 
-E.g:
+Example:
 * [1, 2, 3, 4, 5] -> [-1, -2, -3, -4, -5]
 * [1, -2, 3, -4, 5] -> [-1, 2, -3, 4, -5]
 * [] -> []

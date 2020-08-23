@@ -4,7 +4,7 @@ Run-length encoding (RLE) is a very simple form of lossless data compression, in
 
 Create a function `encode` that implements a RLE of a string. If a character is present only once or twice consecutively, you must not compress it.
 
-E.g:
+Example:
 * "a" -> "a"
 * "aa" -> "aa"
 * "aaa" -> "a3"

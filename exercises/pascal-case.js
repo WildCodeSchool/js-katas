@@ -2,7 +2,7 @@
 /*
 Create a function `pascalCase` which convert a sentence into upper case Camel Case, also known as Pascal Case.
 
-E.g:
+Example:
 * "this is sparta" > "ThisIsSparta"
 * "sO rAdicAL DuDe" > "SoRadicalDude"
 

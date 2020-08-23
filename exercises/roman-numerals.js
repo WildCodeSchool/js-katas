@@ -4,7 +4,7 @@ Create a method `convert` which converts roman numeral to arabic.
 
 If the argument is null, empty or contains an illegal numeral, throw an Error with the text "Illegal argument".
 
-E.g :
+Example :
 * I       -> 1
 * III     -> 3
 * IV      -> 4
