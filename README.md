@@ -68,6 +68,10 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - decimal-to-binary
 - chmod
 
+### Hexadecimal
+
+- hex-to-decimal
+
 ## Setup
 
 ### 1. Get this repo

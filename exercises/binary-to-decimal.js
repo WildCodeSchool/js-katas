@@ -2,7 +2,7 @@
 /*
 Create a function `convert` which, given a binary string representation of a number, returns its decimal value.
 
-If the argument is null or empty, or if a digit isn't 1 or 0, throw an Error with the message "Illegal binary string".
+If the argument is null or empty, not a string or if a digit isn't 1 or 0, throw an Error with the message "Illegal binary string".
 
 Here's the numbers 0 to 9 represented as base 2 (binary):
 
@@ -18,6 +18,8 @@ Here's the numbers 0 to 9 represented as base 2 (binary):
 "1001"	9
 
 You can't use the function parseInt.
+
+Hint (only if you're stuck) : https://gist.github.com/bastienwcs/bebab3c43e7390b29159aaa936c35883
 
 Add you own tests.
 
