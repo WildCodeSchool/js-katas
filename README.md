@@ -93,6 +93,7 @@ return search(node.left, value);
 
 ### Binary Tree
 
+- binarytree-max
 - binarytree-search
 
 ## Setup

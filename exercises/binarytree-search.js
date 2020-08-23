@@ -1,7 +1,5 @@
 "use strict";
 /*
-In computer science, a binary tree is a tree data structure in which each node has at most two children, which are referred to as the left child and the right child.
-
 A binary search tree is a specific binary tree which has the following properties:
 * the left subtree of a node contains only nodes with keys lesser than the node’s key
 * the right subtree of a node contains only nodes with keys greater than the node’s key
@@ -17,7 +15,7 @@ Example:
       / \    /
      4   7  13
 
-Create a function `search` which, given a binary search tree and a value :
+Implement the function `search` which, given a binary search tree and a value :
 * return the node where the value is found
 * return null if the value does not exists in the tree
 
