@@ -20,8 +20,16 @@ const assert = require("assert");
 
 assert.strictEqual(typeof convert, "function");
 assert.strictEqual(convert.length, 1);
-assert.strictEqual(convert.toString().includes("Number("), false);
-assert.strictEqual(convert.toString().includes("toString("), false);
+assert.strictEqual(
+  convert.toString().includes("Number("),
+  false,
+  "don't use the Number class"
+);
+assert.strictEqual(
+  convert.toString().includes("toString("),
+  false,
+  "don't use toString()"
+);
 // TODO add your tests:
 
 // End of tests

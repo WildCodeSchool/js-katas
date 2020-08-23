@@ -8,7 +8,7 @@ Example:
 
 You can't use a loop!
 
-Do not mutate the parameter.
+don't mutate the parameter.
 
 */
 
@@ -22,17 +22,17 @@ assert.strictEqual(pascalCase.length, 1);
 assert.strictEqual(
   pascalCase.toString().includes("for "),
   false,
-  "Do not use a loop"
+  "don't use a loop"
 );
 assert.strictEqual(
   pascalCase.toString().includes("while "),
   false,
-  "Do not use a loop"
+  "don't use a loop"
 );
 assert.strictEqual(pascalCase("this is sparta"), "ThisIsSparta");
 assert.strictEqual(pascalCase("sO rAdicAL DuDe"), "SoRadicalDude");
 let test = "no mutation";
 pascalCase(test);
-assert.strictEqual(test, "no mutation", "Do not mutate the parameter");
+assert.strictEqual(test, "no mutation", "don't mutate the parameter");
 
 // End of tests

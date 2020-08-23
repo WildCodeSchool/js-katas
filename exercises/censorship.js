@@ -23,7 +23,7 @@ result: [
 
 You can't use a loop!
 
-Do not mutate the parameter.
+don't mutate the parameter.
 
 */
 
@@ -37,12 +37,12 @@ assert.strictEqual(censor.length, 2);
 assert.strictEqual(
   censor.toString().includes("for "),
   false,
-  "Do not use a loop"
+  "don't use a loop"
 );
 assert.strictEqual(
   censor.toString().includes("while "),
   false,
-  "Do not use a loop"
+  "don't use a loop"
 );
 assert.deepStrictEqual(censor([], "test"), []);
 assert.deepStrictEqual(censor(["schnibble"], "schnibble"), ["*********"]);
@@ -68,7 +68,7 @@ censor(test);
 assert.deepStrictEqual(
   test,
   ["this test is awesome"],
-  "Do not mutate the parameter"
+  "don't mutate the parameter"
 );
 
 // End of tests

@@ -7,7 +7,7 @@ Example:
 
 You can't use a loop!
 
-Do not mutate the parameter.
+don't mutate the parameter.
 
 */
 
@@ -18,11 +18,11 @@ const assert = require("assert");
 
 assert.strictEqual(typeof uniq, "function");
 assert.strictEqual(uniq.length, 1);
-assert.strictEqual(uniq.toString().includes("for "), false, "Do not use a loop");
+assert.strictEqual(uniq.toString().includes("for "), false, "don't use a loop");
 assert.strictEqual(
   uniq.toString().includes("while "),
   false,
-  "Do not use a loop"
+  "don't use a loop"
 );
 assert.deepStrictEqual(uniq(["a", "a", "b", "b", "c", "a", "b", "c", "c"]), [
   "a",
@@ -45,6 +45,6 @@ assert.deepStrictEqual(uniq([undefined, "a", "a"]), [undefined, "a"]);
 assert.deepStrictEqual(uniq([""]), [""]);
 let test = ["a", "a", "b"];
 uniq(test);
-assert.deepStrictEqual(test, ["a", "a", "b"], "Do not mutate the parameter");
+assert.deepStrictEqual(test, ["a", "a", "b"], "don't mutate the parameter");
 
 // End of tests

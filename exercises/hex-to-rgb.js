@@ -23,7 +23,11 @@ const assert = require("assert");
 
 assert.strictEqual(typeof convert, "function");
 assert.strictEqual(convert.length, 1);
-assert.strictEqual(convert.toString().includes("parseInt"), true);
+assert.strictEqual(
+  convert.toString().includes("parseInt"),
+  true,
+  "You must use parseInt()"
+);
 assert.deepStrictEqual(convert("#000000"), [0, 0, 0]);
 assert.deepStrictEqual(convert("#FFD700"), [255, 215, 0]);
 assert.deepStrictEqual(convert("#9ACD32"), [154, 205, 50]);

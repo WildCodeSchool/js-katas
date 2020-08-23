@@ -73,6 +73,13 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - hex-to-decimal
 - hex-to-rgb
 
+### Recursion
+
+- recursive-factorial
+- recursive-fibonacci
+- recursive-exponentiation
+- recursive-multiply
+
 ## Setup
 
 ### 1. Get this repo

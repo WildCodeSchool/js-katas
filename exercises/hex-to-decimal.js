@@ -34,7 +34,11 @@ const assert = require("assert");
 
 assert.strictEqual(typeof convert, "function");
 assert.strictEqual(convert.length, 1);
-assert.strictEqual(convert.toString().includes("parseInt"), false);
+assert.strictEqual(
+  convert.toString().includes("parseInt"),
+  false,
+  "don't use parseInt()"
+);
 // TODO add your tests:
 
 // End of tests

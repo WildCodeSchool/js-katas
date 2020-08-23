@@ -12,7 +12,7 @@ For each classes:
 Create a class Square, which inherits Rectangle:
 * add a constructor which has only one argument
 * call the constructor of its parent with the super keyword
-* do not implement the area method!
+* don't implement the area method!
 
 */
 
