@@ -45,6 +45,8 @@ Example:
 > numerical : "352", result : "-wxr-x-w-"
 > numerical : "777", result : "rwxrwxrwx"
 
+You can convert decimal to binary using this : Number(decimal).toString(2)
+
 Add your own tests.
 
 */
