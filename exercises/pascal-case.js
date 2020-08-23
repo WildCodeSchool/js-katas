@@ -20,12 +20,12 @@ const assert = require("assert");
 assert.strictEqual(typeof pascalCase, "function");
 assert.strictEqual(pascalCase.length, 1);
 assert.strictEqual(
-  pascalCase.toString().includes("for"),
+  pascalCase.toString().includes("for "),
   false,
   "Do not use a loop"
 );
 assert.strictEqual(
-  pascalCase.toString().includes("while"),
+  pascalCase.toString().includes("while "),
   false,
   "Do not use a loop"
 );

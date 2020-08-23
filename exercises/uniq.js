@@ -18,9 +18,9 @@ const assert = require("assert");
 
 assert.strictEqual(typeof uniq, "function");
 assert.strictEqual(uniq.length, 1);
-assert.strictEqual(uniq.toString().includes("for"), false, "Do not use a loop");
+assert.strictEqual(uniq.toString().includes("for "), false, "Do not use a loop");
 assert.strictEqual(
-  uniq.toString().includes("while"),
+  uniq.toString().includes("while "),
   false,
   "Do not use a loop"
 );

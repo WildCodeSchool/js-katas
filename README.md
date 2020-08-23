@@ -30,6 +30,7 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 - only-odds
 - uniq
 - pascal-case
+- censorship
 
 ### Object
 
