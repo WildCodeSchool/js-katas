@@ -6,96 +6,85 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 
 ### Fundamental
 
-- hello-you
-- fizz-buzz
-- sum-of-multiples
+- [hello-you](./exercises/hello-you.js)
+- [fizz-buzz](./exercises/fizz-buzz.js)
+- [sum-of-multiples](./exercises/sum-of-multiples.js)
 
 ### Array
 
-- social-like
-- found-min
-- sum-of-odds
-- inverse-values
+- [social-like](./exercises/social-like.js)
+- [found-min](./exercises/found-min.js)
+- [sum-of-odds](./exercises/sum-of-odds.js)
+- [inverse-values](./exercises/inverse-values.js)
 
 ### String
 
-- count-letters
-- palindrome
-- duration
-- abbreviate-names
-- string-compare
+- [count-letters](./exercises/count-letters.js)
+- [palindrome](./exercises/palindrome.js)
+- [duration](./exercises/duration.js)
+- [abbreviate-names](./exercises/abbreviate-names.js)
+- [string-compare](./exercises/string-compare.js)
 
 ### Functional programming
 
-- only-odds
-- uniq
-- pascal-case
-- censorship
+- [only-odds](./exercises/only-odds.js)
+- [uniq](./exercises/uniq.js)
+- [pascal-case](./exercises/pascal-case.js)
+- [censorship](./exercises/censorship.js)
 
 ### Object
 
-- person
-- shape
+- [person](./exercises/person.js)
+- [shape](./exercises/shape.js)
 
 ### Database
 
-- database-modeling
-- sql-queries
+- [database-modeling](./exercises/database-modeling.md)
+- [sql-queries](./exercises/sql-queries.md)
 
 ### Array Advanced
 
-- tennis-score
-- pyramid-builder
+- [tennis-score](./exercises/tennis-score.js)
+- [pyramid-builder](./exercises/pyramid-builder.js)
 
 ### String Advanced
 
-- runlength-encoding
-- caesar-cipher
+- [runlength-encoding](./exercises/runlength-encoding.js)
+- [caesar-cipher](./exercises/caesar-cipher.js)
 
 ### Matrix
 
-- tictactoe
-- minesweeper
+- [tictactoe](./exercises/tictactoe.js)
+- [minesweeper](./exercises/minesweeper.js)
 
 ### Collections
 
-- morse-code
-- roman-numerals
+- [morse-code](./exercises/morse-code.js)
+- [roman-numerals](./exercises/roman-numerals.js)
 
 ### Binary
 
-if (node === null) {
-return null;
-}
-if (node.value === value) {
-return node;
-}
-if (node.value < value) {
-return search(node.right, value);
-}
-return search(node.left, value);
-
-- binary-to-decimal
-- decimal-to-binary
-- chmod
+- [binary-to-decimal](./exercises/binary-to-decimal.js)
+- [decimal-to-binary](./exercises/decimal-to-binary.js)
+- [chmod](./exercises/chmod.js)
 
 ### Hexadecimal
 
-- hex-to-decimal
-- hex-to-rgb
+- [hex-to-decimal](./exercises/hex-to-decimal.js)
+- [hex-to-rgb](./exercises/hex-to-rgb.js)
 
 ### Recursion
 
-- recursive-factorial
-- recursive-fibonacci
-- recursive-exponentiation
-- recursive-multiply
+- [recursive-factorial](./exercises/recursive-factorial.js)
+- [recursive-fibonacci](./exercises/recursive-fibonacci.js)
+- [recursive-exponentiation](./exercises/recursive-exponentiation.js)
+- [recursive-multiply](./exercises/recursive-multiply.js)
 
 ### Binary Tree
 
-- binarytree-max
-- binarytree-search
-- binarytree-sum
+- [binarytree-max](./exercises/binarytree-max.js)
+- [binarytree-sum](./exercises/binarytree-sum.js)
+- [binarytree-search](./exercises/binarytree-search.js)
 
 ## Setup
 
