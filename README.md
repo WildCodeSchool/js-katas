@@ -71,6 +71,7 @@ Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](htt
 ### Hexadecimal
 
 - hex-to-decimal
+- hex-to-rgb
 
 ## Setup
 
