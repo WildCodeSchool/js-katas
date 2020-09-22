@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `build` which returns a pyramid of `n` floors, from top to bottom, stored in a string array.
 

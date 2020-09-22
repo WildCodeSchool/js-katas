@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `fizzBuzz` which takes a number as parameter, and returns:
 * "Fizz", if the argument is a multiple of 3

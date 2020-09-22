@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `pascalCase` which convert a sentence into upper case Camel Case, also known as Pascal Case.
 

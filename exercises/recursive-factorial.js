@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `facto` which calculate the factorial n! of a number n.
 

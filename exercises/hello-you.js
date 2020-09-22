@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `sayHello` which takes a string as parameter and returns: "Hello {first name}", where {first name} is replaced with the argument value, example:
 * sayHello("Barbara") -> "Hello Barbara"

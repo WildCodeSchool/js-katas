@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `inverse`, which given an array of numbers, return the additive inverse of each : each positive becomes negatives, and the negatives become positives.
 

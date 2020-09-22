@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `winner` which analyses a 3x3 tic-tac-toe grid.
 * "X" represents player X

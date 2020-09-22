@@ -1,4 +1,3 @@
-"use strict";
 /*
 In cryptography, a Caesar cipher is a simple encryption technique, in which each letter in text is replaced by a letter some fixed number of positions down the alphabet.
 

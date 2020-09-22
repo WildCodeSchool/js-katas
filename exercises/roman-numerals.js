@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a method `convert` which converts roman numeral to arabic.
 

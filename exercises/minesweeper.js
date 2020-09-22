@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `sweep` which takes a grid and two numbers as parameters :
 * grid : a minesweeper matrix where 0 are empty cells and 1 are bombs. The width and height of the grid can vary.

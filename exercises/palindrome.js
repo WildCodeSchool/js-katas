@@ -1,4 +1,3 @@
-"use strict";
 /*
 A palindrome is a word or a phrase that reads the same backwards as forwards, example. madam.
 

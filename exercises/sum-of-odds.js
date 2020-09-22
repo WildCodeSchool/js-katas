@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `sum` which returns the sum of all odd values contained in a number array.
 

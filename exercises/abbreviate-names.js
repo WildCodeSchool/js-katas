@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `abbreviate` which converts a name into initials.
 

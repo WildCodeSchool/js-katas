@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `convert` which, given a binary string representation of a number, returns its decimal value.
 

@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `getScore` which returns the string of the current scores of a tennis game, from a number array where each value represents the player that scored.
 

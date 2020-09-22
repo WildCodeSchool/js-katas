@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create the function pow, where you need to call pow(n, e) recursively.
 

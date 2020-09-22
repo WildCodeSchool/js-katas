@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `convert` which converts a positive integer to a binary string.
 

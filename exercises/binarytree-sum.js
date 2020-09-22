@@ -1,4 +1,3 @@
-"use strict";
 /*
 You are given a binary tree. Implement the method `sum` which returns the sumimal sum of a route from root to leaf.
 

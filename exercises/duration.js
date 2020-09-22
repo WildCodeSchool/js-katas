@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `convertTime` which converts a time formatted as "hh:mm" in a duration in minuts.
 

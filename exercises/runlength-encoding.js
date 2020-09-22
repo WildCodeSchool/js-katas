@@ -1,4 +1,3 @@
-"use strict";
 /*
 Run-length encoding (RLE) is a very simple form of lossless data compression, in which same consecutive elements are stored as a single data value and count.
 

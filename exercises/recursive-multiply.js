@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `multiply`, which multiply two numbers (positive or negative), using recursion.
 

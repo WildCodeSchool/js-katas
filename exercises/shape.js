@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create three classes which inherit the class Shape:
 * Rectangle

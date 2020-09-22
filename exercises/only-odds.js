@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `odd` which only keep odd values from an array passed as an argument.
 

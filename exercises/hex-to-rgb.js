@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a method `convert` that converts a hexadecimal color string into a RGB array.
 

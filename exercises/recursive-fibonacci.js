@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a recursive function `fibo` that returns n'th element of Fibonacci sequence.
 

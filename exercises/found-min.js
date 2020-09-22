@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `min` which founds the minimum value of a number array.
 

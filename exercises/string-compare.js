@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `compare` which returns the number of identical characters at same position, from two String of same length.
 

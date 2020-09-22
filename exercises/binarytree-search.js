@@ -1,4 +1,3 @@
-"use strict";
 /*
 A binary search tree is a specific binary tree which has the following properties:
 * the left subtree of a node contains only nodes with keys lesser than the node’s key

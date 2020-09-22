@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `decode` which translates morse code into latin alphabet.
 

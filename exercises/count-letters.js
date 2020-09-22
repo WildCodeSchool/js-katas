@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `countChar` which counts, in a given string, the number of times a character appears.
 

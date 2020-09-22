@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a class `Person` which has :
 * a constructor which initialize three attributes in this order : name (string), age (number) and weeaboo (boolean)

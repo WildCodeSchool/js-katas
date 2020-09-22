@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `censor` which takes an array of sentences and a forbidden word as argument, then returns the array with the word censored.
 

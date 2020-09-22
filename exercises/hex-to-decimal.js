@@ -1,4 +1,3 @@
-"use strict";
 /*
 Create a function `convert` which, given a string representation of an hexadecimal value, returns its decimal value.
 
