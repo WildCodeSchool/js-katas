@@ -4,8 +4,6 @@ Implement a function `uniq` which takes as input a sequence and returns a sequen
 Example:
 * ['a','a','b','b','c','a','b','c'] --> ['a','b','c','a','b','c']
 
-You can't use a loop!
-
 Don't mutate the parameter.
 
 */
@@ -17,7 +15,6 @@ const assert = require("assert");
 
 assert.strictEqual(typeof uniq, "function");
 assert.strictEqual(uniq.length, 1);
-assert.strictEqual(uniq.toString().includes("for "), false, "don't use a loop");
 assert.strictEqual(
   uniq.toString().includes("while "),
   false,
