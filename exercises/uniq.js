@@ -6,6 +6,8 @@ Example:
 
 Don't mutate the parameter.
 
+Bonus : do not use a loop
+
 */
 
 // TODO your code:
