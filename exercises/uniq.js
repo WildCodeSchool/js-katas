@@ -17,11 +17,6 @@ const assert = require("assert");
 
 assert.strictEqual(typeof uniq, "function");
 assert.strictEqual(uniq.length, 1);
-assert.strictEqual(
-  uniq.toString().includes("while "),
-  false,
-  "don't use a loop"
-);
 assert.deepStrictEqual(uniq(["a", "a", "b", "b", "c", "a", "b", "c", "c"]), [
   "a",
   "b",
