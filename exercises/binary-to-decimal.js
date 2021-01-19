@@ -20,6 +20,9 @@ You can't use the function parseInt.
 
 Hint (only if you're stuck) : https://gist.github.com/bastienwcs/bebab3c43e7390b29159aaa936c35883
 
+If the argument is not a string, throw a TypeError with the message "Illegal argument".
+If the argument is an empty string, or if a digit isn't 1 or 0, throw an Error with the message "Illegal binary string".
+
 Add you own tests.
 
 */
@@ -38,4 +41,16 @@ assert.strictEqual(
 );
 // TODO add your tests:
 
+// exceptions
+/*
+assert.throws(() => {
+  convert(1);
+}, /^TypeError: Illegal argument$/);
+assert.throws(() => {
+  convert("");
+}, /^Error: Illegal binary string$/);
+assert.throws(() => {
+  convert("01A1");
+}, /^Error: Illegal binary string$/);
+*/
 // End of tests
