@@ -52,10 +52,10 @@ DROP TABLE IF EXISTS `menu`;
 CREATE TABLE `menu` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` varchar(100) NOT NULL,
-  `id_restaurant` int(11) NOT NULL,
+  `restaurant_id` int(11) NOT NULL,
   PRIMARY KEY (`id`),
-  KEY `menu_restaurant_FK` (`id_restaurant`),
-  CONSTRAINT `menu_restaurant_FK` FOREIGN KEY (`id_restaurant`) REFERENCES `restaurant` (`id`)
+  KEY `menu_restaurant_FK` (`restaurant_id`),
+  CONSTRAINT `menu_restaurant_FK` FOREIGN KEY (`restaurant_id`) REFERENCES `restaurant` (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=21 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
@@ -77,12 +77,12 @@ DROP TABLE IF EXISTS `menu_dish`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `menu_dish` (
-  `id_dish` int(11) NOT NULL,
-  `id_menu` int(11) NOT NULL,
-  PRIMARY KEY (`id_dish`,`id_menu`),
-  KEY `menu_dish_menu0_FK` (`id_menu`),
-  CONSTRAINT `menu_dish_dish_FK` FOREIGN KEY (`id_dish`) REFERENCES `dish` (`id`),
-  CONSTRAINT `menu_dish_menu0_FK` FOREIGN KEY (`id_menu`) REFERENCES `menu` (`id`)
+  `dish_id` int(11) NOT NULL,
+  `menu_id` int(11) NOT NULL,
+  PRIMARY KEY (`dish_id`,`menu_id`),
+  KEY `menu_dish_menu0_FK` (`menu_id`),
+  CONSTRAINT `menu_dish_dish_FK` FOREIGN KEY (`dish_id`) REFERENCES `dish` (`id`),
+  CONSTRAINT `menu_dish_menu0_FK` FOREIGN KEY (`menu_id`) REFERENCES `menu` (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
