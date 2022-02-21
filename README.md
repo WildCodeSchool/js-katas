@@ -7,6 +7,7 @@
 - [hello-you](./exercises/hello-you.js)
 - [fizz-buzz](./exercises/fizz-buzz.js)
 - [sum-of-multiples](./exercises/sum-of-multiples.js)
+- [math-min](./exercises/math-min.js)
 - [math-pow](./exercises/math-pow.js)
 
 ### Array
