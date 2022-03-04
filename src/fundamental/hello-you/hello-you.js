@@ -7,7 +7,7 @@ If the argument is empty, null or undefined, return "Hello World":
 
 */
 
-// TODO your code:
+// TODO add your code here
 
 // Begin of tests
 const assert = require("assert");

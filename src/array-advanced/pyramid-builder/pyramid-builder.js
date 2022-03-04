@@ -17,7 +17,7 @@ If `n` is null or not a number, throw a TypeError.
 
 */
 
-// TODO your code:
+// TODO add your code here
 
 // Begin of tests
 const assert = require("assert");

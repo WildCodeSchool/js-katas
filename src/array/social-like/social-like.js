@@ -7,7 +7,7 @@ Create a function `getLikes` which receives an array of names, and returns:
 
 */
 
-// TODO your code:
+// TODO add your code here
 
 // Begin of tests
 const assert = require("assert");

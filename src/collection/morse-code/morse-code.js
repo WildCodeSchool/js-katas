@@ -38,7 +38,7 @@ morseMap.set(".-.-.-", ".");
 morseMap.set("..--..", "?");
 morseMap.set("-.-.--", "!");
 
-// TODO your code:
+// TODO add your code here
 
 // Begin of tests
 const assert = require("assert");

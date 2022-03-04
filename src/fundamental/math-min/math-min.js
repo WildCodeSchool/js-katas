@@ -12,7 +12,7 @@ You can't use Math.min(), the goal is to recreate this function!
 
 */
 
-// TODO your code:
+// TODO add your code here
 
 // Begin of tests
 const assert = require("assert");

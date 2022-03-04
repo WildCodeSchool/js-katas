@@ -7,7 +7,7 @@ Create a function `fizzBuzz` which takes a number as parameter, and returns:
 
 */
 
-// TODO your code:
+// TODO add your code here
 
 // Begin of tests
 const assert = require("assert");
