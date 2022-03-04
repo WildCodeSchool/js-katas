@@ -1,8 +1,8 @@
 # SQL Queries
 
-![Database diagram](../img/restaurant-uml.png)
+![Database diagram](./restaurant-uml.png)
 
-Import the [../databases/restaurant.sql](../databases/restaurant.sql) file into MySQL.
+Import the [restaurant.sql](./restaurant.sql) file into MySQL.
 
 Create the following queries :
 
@@ -54,109 +54,109 @@ Create the following queries :
 </details>
 <details>
     <summary>Request 2</summary>
-  
+
     ORDER BY
-  
+
 </details>
 <details>
     <summary>Request 3</summary>
-  
+
     ORDER BY
-  
+
 </details>
 <details>
     <summary>Request 4</summary>
-  
+
     WHERE
-  
+
 </details>
 <details>
     <summary>Request 5</summary>
-  
+
     LIKE
-  
+
 </details>
 <details>
     <summary>Request 6</summary>
-  
+
     DISTINCT
-  
+
 </details>
 <details>
     <summary>Request 7</summary>
-  
+
     ORDER BY, LIMIT
-  
+
 </details>
 <details>
     <summary>Request 8</summary>
-  
+
     INNER JOIN
-  
+
 </details>
 <details>
     <summary>Request 9</summary>
-  
+
     DISTINCT, INNER JOIN
-  
+
 </details>
 <details>
     <summary>Request 10</summary>
-  
+
     INNER JOIN (x2)
-  
+
 </details>
 <details>
     <summary>Request 11</summary>
-  
+
     INNER JOIN (x3)
-  
+
 </details>
 <details>
     <summary>Request 12</summary>
-  
+
     LEFT JOIN
-  
+
 </details>
 <details>
     <summary>Request 13</summary>
-  
+
     LEFT JOIN
-  
+
 </details>
 <details>
     <summary>Request 14</summary>
-  
+
     COUNT, GROUP BY
-  
+
 </details>
 <details>
     <summary>Request 15</summary>
-  
+
     COUNT, INNER JOIN (x2), GROUP BY
-  
+
 </details>
 <details>
     <summary>Request 16</summary>
-  
+
     CCOUNT, INNER JOIN (x2), GROUP BY, ORDER BY, LIMIT
-  
+
 </details>
 <details>
     <summary>Request 17</summary>
-  
+
     COUNT, LEFT JOIN, GROUP BY
-  
+
 </details>
 <details>
     <summary>Request 18</summary>
-  
+
     COUNT, INNER JOIN, GROUP BY, HAVING
-  
+
 </details>
 <details>
     <summary>Request 19</summary>
-  
+
     DISTINCT, INNER JOIN (x3), GROUP BY, HAVING
-  
+
 </details>
