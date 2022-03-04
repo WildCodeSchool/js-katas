@@ -4,87 +4,84 @@
 
 ### Fundamental
 
-- [hello-you](./exercises/hello-you.js)
-- [fizz-buzz](./exercises/fizz-buzz.js)
-- [sum-of-multiples](./exercises/sum-of-multiples.js)
-- [math-min](./exercises/math-min.js)
-- [math-pow](./exercises/math-pow.js)
+- [hello-you](./src/fundamental/hello-you/hello-you.js)
+- [fizz-buzz](./src/fundamental/fizz-buzz/fizz-buzz.js)
+- [sum-of-multiples](./src/fundamental/sum-of-multiples/sum-of-multiples.js)
+- [math-min](./src/fundamental/math-min/math-min.js)
+- [math-pow](./src/fundamental/math-pow/math-pow.js)
 
 ### Array
 
-- [social-like](./exercises/social-like.js)
-- [found-min](./exercises/found-min.js)
-- [sum-of-odds](./exercises/sum-of-odds.js)
-- [inverse-values](./exercises/inverse-values.js)
+- [social-like](./src/array/social-like/social-like.js)
+- [found-min](./src/array/found-min/found-min.js)
+- [sum-of-odds](./src/array/sum-of-odds/sum-of-odds.js)
+- [inverse-values](./src/array/inverse-values/inverse-values.js)
 
 ### String
 
-- [count-letters](./exercises/count-letters.js)
-- [palindrome](./exercises/palindrome.js)
-- [duration](./exercises/duration.js)
-- [abbreviate-names](./exercises/abbreviate-names.js)
-- [string-compare](./exercises/string-compare.js)
+- [count-letters](./src/string/count-letters/count-letters.js)
+- [palindrome](./src/string/palindrome/palindrome.js)
+- [duration](./src/string/duration/duration.js)
+- [abbreviate-names](./src/string/abbreviate-names/abbreviate-names.js)
+- [string-compare](./src/string/string-compare/string-compare.js)
 
-### Functional programming
+### Array functions
 
-- [only-odds](./exercises/only-odds.js)
-- [uniq](./exercises/uniq.js)
-- [pascal-case](./exercises/pascal-case.js)
-- [censorship](./exercises/censorship.js)
+- [only-odds](./src/array-functions/only-odds/only-odds.js)
+- [pascal-case](./src/array-functions/pascal-case/pascal-case.js)
+- [censorship](./src/array-functions/censorship/censorship.js)
+- [uniq](./src/array-functions/uniq/uniq.js)
 
 ### Object
 
-- [person](./exercises/person.js)
-- [shape](./exercises/shape.js)
+- [person](./src/object/person/person.js)
+- [shape](./src/object/shape/shape.js)
 
 ### Database
 
-- [database-modeling](./exercises/database-modeling.md)
-- [sql-queries](./exercises/sql-queries.md)
+- [database-modeling](./src/database/database-modeling/database-modeling.md)
+- [sql-queries](./src/database/sql-queries/sql-queries.md)
 
 ### Array Advanced
 
-- [tennis-score](./exercises/tennis-score.js)
-- [pyramid-builder](./exercises/pyramid-builder.js)
+- [tennis-score](./src/array-advanced/tennis-score/tennis-score.js)
+- [pyramid-builder](./src/array-advanced/pyramid-builder/pyramid-builder.js)
 
 ### String Advanced
 
-- [runlength-encoding](./exercises/runlength-encoding.js)
-- [caesar-cipher](./exercises/caesar-cipher.js)
+- [runlength-encoding](./src/string-advanced/runlength-encoding/runlength-encoding.js)
+- [caesar-cipher](./src/string-advanced/caesar-cipher/caesar-cipher.js)
 
-### Matrix
+### Multidimensional Array
 
-- [tictactoe](./exercises/tictactoe.js)
-- [minesweeper](./exercises/minesweeper.js)
+- [tictactoe](./src/array-multidimensional/tictactoe/tictactoe.js)
+- [minesweeper](./src/array-multidimensional/minesweeper/minesweeper.js)
 
-### Collections
+### Collection
 
-- [morse-code](./exercises/morse-code.js)
-- [roman-numerals](./exercises/roman-numerals.js)
+- [morse-code](./src/collection/morse-code/morse-code.js)
+- [roman-numerals](./src/collection/roman-numerals/roman-numerals.js)
 
-### Binary
+### Number conversion
 
-- [binary-to-decimal](./exercises/binary-to-decimal.js)
-- [decimal-to-binary](./exercises/decimal-to-binary.js)
-- [chmod](./exercises/chmod.js)
-
-### Hexadecimal
-
-- [hex-to-decimal](./exercises/hex-to-decimal.js)
-- [hex-to-rgb](./exercises/hex-to-rgb.js)
+- [binary-to-decimal](./src/number-conversion/binary-to-decimal/binary-to-decimal.js)
+- [decimal-to-binary](./src/number-conversion/decimal-to-binary/decimal-to-binary.js)
+- [chmod](./src/number-conversion/chmod/chmod.js)
+- [hex-to-decimal](./src/number-conversion/hex-to-decimal/hex-to-decimal.js)
+- [hex-to-rgb](./src/number-conversion/hex-to-rgb/hex-to-rgb.js)
 
 ### Recursion
 
-- [recursive-factorial](./exercises/recursive-factorial.js)
-- [recursive-fibonacci](./exercises/recursive-fibonacci.js)
-- [recursive-exponentiation](./exercises/recursive-exponentiation.js)
-- [recursive-multiply](./exercises/recursive-multiply.js)
+- [recursive-factorial](./src/recursion/recursive-factorial/recursive-factorial.js)
+- [recursive-fibonacci](./src/recursion/recursive-fibonacci/recursive-fibonacci.js)
+- [recursive-exponentiation](./src/recursion/recursive-exponentiation/recursive-exponentiation.js)
+- [recursive-multiply](./src/recursion/recursive-multiply/recursive-multiply.js)
 
 ### Binary Tree
 
-- [binarytree-max](./exercises/binarytree-max.js)
-- [binarytree-sum](./exercises/binarytree-sum.js)
-- [binarytree-search](./exercises/binarytree-search.js)
+- [binarytree-max](./src/binary-tree/binarytree-max/binarytree-max.js)
+- [binarytree-sum](./src/binary-tree/binarytree-sum/binarytree-sum.js)
+- [binarytree-search](./src/binary-tree/binarytree-search/binarytree-search.js)
 
 ## Setup
 
@@ -106,19 +103,8 @@ cd js-katas
 
 ## Solving
 
-You can start editing the JavaScript files with your favorite text editor i.e. VSCode, Atom, Sublime Text, etc.
-
-![where-to-code](img/where-to-code.png)
+TODO
 
 ## Testing
 
-Once you have coded your masterpiece, you can start testing your solutions.
-
-You can run tests for a single kata:
-
-```sh
-# run the test runner with one arg (e.g: hello-you, fizz-buzz...)
-./tester kata-name
-```
-
-Credits: [Clément Denis](https://github.com/kigiri) for the [original repo](https://github.com/nan-academy/js-training).
+TODO
