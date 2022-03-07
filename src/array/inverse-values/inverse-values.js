@@ -16,20 +16,4 @@ Don't mutate the parameter.
 
 // TODO add your code here
 
-// Begin of tests
-const assert = require("assert");
-
-assert.strictEqual(typeof inverse, "function");
-assert.strictEqual(inverse.length, 1);
-assert.deepStrictEqual(inverse([]), []);
-assert.deepStrictEqual(inverse(null), []);
-assert.deepStrictEqual(inverse([0]), [-0]);
-assert.deepStrictEqual(inverse([1]), [-1]);
-assert.deepStrictEqual(inverse([-1]), [1]);
-assert.deepStrictEqual(inverse([1, 2, 3, 4, 5]), [-1, -2, -3, -4, -5]);
-assert.deepStrictEqual(inverse([1, -2, 3, -4, 5]), [-1, 2, -3, 4, -5]);
-// check parameter mutating
-let arg = [1];
-let result = inverse(arg);
-assert.deepStrictEqual(arg, [1]);
-// End of tests
+module.exports = inverse;
