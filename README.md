@@ -113,7 +113,7 @@ npm install
 
 ### 1. Fundamental katas
 
-Fundamental katas use the Node Assert library: https://nodejs.org/api/assert.html
+Fundamental katas use the Node Assert testing library: https://nodejs.org/api/assert.html
 
 ```sh
 node src/fundamental/kata-name/kata-name.js
@@ -121,7 +121,7 @@ node src/fundamental/kata-name/kata-name.js
 
 ### 2. Other katas
 
-The other katas use Jest: https://jestjs.io/docs/getting-started
+The other katas use the Jest testing framework: https://jestjs.io/docs/getting-started
 
 ```sh
 npm test -- kata-name
