@@ -16,6 +16,7 @@
 - [found-min](./src/array/found-min/found-min.js)
 - [sum-of-odds](./src/array/sum-of-odds/sum-of-odds.js)
 - [inverse-values](./src/array/inverse-values/inverse-values.js)
+- [soccer](./src/array/soccer/soccer.js)
 
 ### String
 
