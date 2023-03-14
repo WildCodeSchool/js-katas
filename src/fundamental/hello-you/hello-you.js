@@ -18,4 +18,7 @@ assert.strictEqual(sayHello("Barbara"), "Hello Barbara");
 assert.strictEqual(sayHello("Jean-Michel"), "Hello Jean-Michel");
 assert.strictEqual(sayHello(""), "Hello World");
 assert.strictEqual(sayHello(null), "Hello World");
+assert.strictEqual(sayHello(), "Hello World");
 // End of tests
+
+console.log("🎉");
