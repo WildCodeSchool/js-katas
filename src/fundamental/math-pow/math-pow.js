@@ -30,3 +30,5 @@ assert.strictEqual(pow(3, 3), 27);
 assert.strictEqual(pow("tacos", 2), NaN);
 assert.strictEqual(pow(42), NaN);
 // End of tests
+
+console.log("🎉");
