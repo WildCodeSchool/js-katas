@@ -25,3 +25,5 @@ assert.strictEqual(min(-1, 0), -1);
 assert.strictEqual(min("tacos", 0), NaN);
 assert.strictEqual(min(), NaN);
 // End of tests
+
+console.log("🎉");
