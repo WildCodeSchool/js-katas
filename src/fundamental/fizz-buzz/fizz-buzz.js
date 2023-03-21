@@ -23,3 +23,5 @@ assert.strictEqual(fizzBuzz(30), "FizzBuzz");
 assert.strictEqual(fizzBuzz(7), "7");
 assert.strictEqual(fizzBuzz(13), "13");
 // End of tests
+
+console.log("🎉");
