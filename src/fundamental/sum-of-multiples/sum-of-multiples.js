@@ -19,3 +19,5 @@ assert.strictEqual(sum(42), 408);
 assert.strictEqual(sum(100), 2318);
 
 // End of tests
+
+console.log("🎉");
