@@ -7,6 +7,7 @@ If the argument is empty, null or undefined, return "Hello World":
 
 */
 
+
 // TODO add your code here
 
 // Begin of tests

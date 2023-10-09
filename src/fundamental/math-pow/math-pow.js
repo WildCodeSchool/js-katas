@@ -15,7 +15,19 @@ If an argument is not a number, return NaN.
 You can't use Math.pow(), the goal is to recreate this function!
 
 */
+function pow(base, exponent) {
+    if (isNaN(base) || isNaN(exponent)) { return NaN }
+    else if (base !== 0 || exponent !== 0) {
+        let result;
+    
+        for (let i = 0; i < exponent; i++) {
+            
+            result = result + (base * exponent)
+            console.log('result ==>', result)
+        }
 
+    } else return 1;
+}
 // TODO add your code here
 
 // Begin of tests
