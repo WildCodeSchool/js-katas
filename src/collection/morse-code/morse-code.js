@@ -40,13 +40,6 @@ morseMap.set("-.-.--", "!");
 
 // TODO add your code here
 
-// Begin of tests
-const assert = require("assert");
+  
+module.exports = decode;
 
-assert.strictEqual(typeof decode, "function");
-assert.strictEqual(decode.length, 1);
-assert.strictEqual(decode(".-- .. .-.. -.."), "WILD");
-assert.strictEqual(decode("- .- -.-. --- ..."), "TACOS");
-assert.strictEqual(decode(".-- .. .-.. -..   -.-. --- -.. ."), "WILD CODE");
-
-// End of tests
