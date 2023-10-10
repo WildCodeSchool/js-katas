@@ -24,17 +24,8 @@ If the argument is null or not an array, throw a TypeError.
 If a value of the argument is null or not a number, throw a TypeError.
 If a value of the argument is not 1 or 2, throw a RangeError.
 
-Add you own tests.
-
 */
-
+  
 // TODO add your code here
 
-// Begin of tests
-const assert = require("assert");
-
-assert.strictEqual(typeof getScore, "function");
-assert.strictEqual(getScore.length, 1);
-// TODO add your tests:
-
-// End of tests
+module.exports = getScore;

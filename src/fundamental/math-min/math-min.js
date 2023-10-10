@@ -12,10 +12,12 @@ You can't use Math.min(), the goal is to recreate this function!
 
 */
 
+
 // TODO add your code here
 
 // Begin of tests
 const assert = require("assert");
+const { isNumberObject } = require("util/types");
 
 assert.strictEqual(typeof min, "function");
 assert.strictEqual(min.length, 2);
