@@ -5,8 +5,8 @@ Create a class `Person` which has :
 * a method `greets` which receives a name (string) as parameter and returns "Hello {name}" if `weeaboo` is false, and "Ohayou {name}-chan" if `weeaboo` is true
 * a method `match` which receives a person (Person) as parameter and returns true if the current `weeaboo` and argument `weeaboo` attributes are the same
 
-Créer une classe Hero qui hérite de Person. Il sera possible de renseigne une propriété "power" lors de la construction.
-Lors de l'appel de greets, en plus de la présentation classique, le héros devra indiquer son pouvoir.
+Créer une classe Hero qui hérite de Person. Il faudra renseigner une propriété "power" (string) lors de la construction.
+Lors de l'appel de introduce, en plus de la présentation classique, le héros devra indiquer son pouvoir.
 
 */
 
@@ -42,7 +42,7 @@ if (typeof Person === "function") {
     );
     assert.strictEqual(
       new Person("John Doe", 30, true).greets("Uzaki"),
-      "Ohayo Uzaki-chan"
+      "Ohayou Uzaki-chan"
     );
   }
   assert.strictEqual(
