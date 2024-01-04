@@ -21,7 +21,7 @@ TODO :
 - créer la classe Hero et son constructeur
 - redéfinir la méthode introduce
 - créer des instances de Hero
-- créer la méthode match
+- Bonus : créer la méthode match
 
 */
 
