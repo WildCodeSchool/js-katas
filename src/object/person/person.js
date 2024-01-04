@@ -1,6 +1,5 @@
 /*
 Créez une classe Person qui comporte :
-
 - Un constructeur qui initialise trois propriétés dans cet ordre : name (string), age (nombre) et weeaboo (booléen).
 - Une méthode introduce qui renvoie "My name is {name} and I am {age}", où {name} et {age} sont remplacés par leurs propriétés respectives.
 - Une méthode greets qui reçoit un nom (name, string) en paramètre et renvoie "Hello {name}" si weeaboo est faux, et "Ohayou {name}-chan" si weeaboo est vrai.
@@ -10,8 +9,7 @@ Ensuite, créer une classe Hero qui hérite de Person :
 - Lors de l'appel de introduce, en plus de la présentation classique, le héros devra indiquer son pouvoir : "My superpower is {power}".
 
 Bonus : modifier la classe Person :
-
-- Ajouter une méthode match qui reçoit une personne (Person) en paramètre et renvoie vrai si les propriétés weeaboo actuels et de l'argument sont identiques.
+- Ajouter une méthode match qui reçoit une personne (Person) en paramètre et renvoie "it's a match" si les propriétés weeaboo actuels et de l'argument sont identiques et "it's not a match" sinon.
 
 TODO :
 - créer la classe Person et son constructeur
@@ -26,7 +24,6 @@ TODO :
 */
 
 // Votre code ici !
-
 
 // Begin of tests
 /*
