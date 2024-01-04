@@ -1,18 +1,35 @@
 /*
-Create a class `Person` which has :
-* a constructor which initialize three attributes in this order : name (string), age (number) and weeaboo (boolean)
-* a method `introduce` which returns "My name is {name} and I am {age}", where {name} and {age} are replaced with their respective attributes
-* a method `greets` which receives a name (string) as parameter and returns "Hello {name}" if `weeaboo` is false, and "Ohayou {name}-chan" if `weeaboo` is true
-* a method `match` which receives a person (Person) as parameter and returns true if the current `weeaboo` and argument `weeaboo` attributes are the same
+Créez une classe Person qui comporte :
 
-Créer une classe Hero qui hérite de Person. Il faudra renseigner une propriété "power" (string) lors de la construction.
-Lors de l'appel de introduce, en plus de la présentation classique, le héros devra indiquer son pouvoir.
+- Un constructeur qui initialise trois propriétés dans cet ordre : name (string), age (nombre) et weeaboo (booléen).
+- Une méthode introduce qui renvoie "My name is {name} and I am {age}", où {name} et {age} sont remplacés par leurs propriétés respectifs.
+- Une méthode greets qui reçoit un nom (name, string) en paramètre et renvoie "Hello {name}" si weeaboo est faux, et "Ohayou {name}-chan" si weeaboo est vrai.
+
+Ensuite, créer une classe Hero qui hérite de Person :
+- Un constructeur qui initialise une propriété "power" (string).
+- Lors de l'appel de introduce, en plus de la présentation classique, le héros devra indiquer son pouvoir.
+
+Bonus : modifier la classe Person :
+
+- Ajouter une méthode match qui reçoit une personne (Person) en paramètre et renvoie vrai si les propriétés weeaboo actuels et de l'argument sont identiques.
+
+TODO :
+- créer la classe Person et son constructeur
+- créer la méthode introduce
+- créer la méthode greets
+- créer des instances de Person
+- créer la classe Hero et son constructeur
+- redéfinir la méthode introduce
+- créer des instances de Hero
+- créer la méthode match
 
 */
 
-// TODO add your code here
+// Votre code ici !
+
 
 // Begin of tests
+/*
 const assert = require("assert");
 assert.strictEqual(typeof Person, "function", "Person class is undefined");
 if (typeof Person === "function") {
@@ -69,3 +86,4 @@ if (typeof Person === "function") {
 }
 
 // End of tests
+*/
